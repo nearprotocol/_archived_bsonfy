@@ -32,6 +32,7 @@ Using this module is rather simple. Copy or (npm) install *bsonfy* to your proje
 
 ```typescript
 import { BSON } from 'bsonfy';
+// if you need a require, use const BSON = require('bsonfy').BSON;
 
 // create a test document
 let doc = { id: 10, time: new BSON.UTC(), arr: new Uint8Array([1, 2, 3, 4, 5, 6, 7, 8]) };
